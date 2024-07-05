@@ -42,6 +42,12 @@ a, .s {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: 300;
+
+}
+
+.s {
+    margin-top: 0;
 }
 
 .welcome {
@@ -75,7 +81,7 @@ a, .s {
     display: flex;
     flex-direction: column;
     height: 400px;
-    background-color: aliceblue;
+    justify-content: center;
 }
 .container2 {
     display: flex;
@@ -104,5 +110,74 @@ a, .s {
     justify-content: center;
 }
 
+/* QUOTE */
+.container3 {
+    display: flex;
+    flex-direction: column;
+    height : 300px;
+    background-color: #e5e7eb;
+    padding: 0 200px;
+    justify-content: center;
+}
 
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0;
+}
+
+.signoff {
+    display: flex;
+    justify-content: end;
+}
+
+/* CALL */
+.container4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    background-color:white;
+    padding: 0 200px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 600px;
+    padding: 20px 100px;
+    color:#E5E7EB;
+}
+
+.calltoaction {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom:0;
+}
+
+.sign {
+    margin-top: 0;
+}
+
+.content button {
+    width: 120px;
+    height: 30px;
+    border-radius: 7px;
+    border-color: #E5E7EB;
+    background-color:#3882f6;
+    color:#E5E7EB;
+    font-weight: bolder;
+}
+
+/* FOOTER */
+
+.container5 {
+    background-color: #1F2937;
+    color:#E5E7EB;
+    text-align: center;
+}
 
